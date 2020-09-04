@@ -6,7 +6,10 @@ Resolvendo desafios com pequenos programas em Python.
 ### Exercício 01
 Faça um programa que realize a soma básica de dois números reais.
 
-----
+
+### Exercício 02
+Faça um programa que calcule o índice de massa corporal (IMC) de uma determinada pessoa.
+
 
 ### Exercício 03
 Faça um programa que peça ao usuário que digite algo e depois retorne informações sobre o que foi digitado, como: seu tipo primitivo, se é um número, se possui apenas espaços e se é formado apenas por letras.
