@@ -1,5 +1,7 @@
-# PROGRAMA LEIA O VALOR DE UM SALÁRIO E FAÇA O REAJUSTE SALARIAL DE +15%.
+# PROGRAMA LEIA O VALOR DE UM SALÁRIO E FAÇA SEU REAJUSTE SALARIAL.
 
 print('===== REAJUSTE SALARIAL =====')
-s = int(input('R$: '))
-print(f'Com o reajuste de 15% o seu salário vai para R${s*1.15:.2f}.')
+s = float(input('Digite o salário atual: R$'))
+r = float(input('Digite a porcentagem de reajuste: '))
+novo = s + s * (r / 100)
+print(f'Com o reajuste de {r}%, o funcionário passa a receber R${novo:.2f}.')

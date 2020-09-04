@@ -1,4 +1,4 @@
-#PROGRAMA QUE REALIZE O CÁLCULO DO IMC DE UMA PESSOA.
+# PROGRAMA QUE REALIZE O CÁLCULO DO IMC DE UMA PESSOA.
 
 print('CÁLCULO IMC')
 peso = float(input('Seu peso em kg: '))
