@@ -90,3 +90,31 @@ Faça um programa que seja capaz de calcular a quantidade de números ímpares e
 
 ### Exercício 22
 Faça um programa que calcule Progressão Aritmética (PA). Primeiro peça que o usuário digite o primeiro termo da progressão e depois sua razão, então exiba os 10 primeiros termos dessa PA.
+
+
+### Exercício 23
+Faça um programa que peça ao usuário para digitar um número e diga se esse número é primo. Caso não seja, mostre por quantos números ele é divisível.
+
+
+### Exercício 24
+Faça um programa que leia uma palavra ou frase qualquer e diga se ela é um palíndromo. Observação: desconsidere os espaços.
+
+
+### Exercício 25
+Faça um programa que leia o ano de nascimento de algumas pessoas e diga ao final quantas delas são maiores de idade e quantas são menores. É o usuário que deve determinar o número de pessoas e o ano de nascimento de cada uma delas.
+
+
+### Exercício 26
+Faça um programa que leia o peso de algumas pessoas e diga ao final qual foi o maior e qual foi o menor peso registrado. É o usuário que deve determinar o número de pessoas e o peso de cada uma delas.
+
+
+### Exercício 27
+### Exercício 28
+### Exercício 29
+### Exercício 31
+### Exercício 32
+### Exercício 33
+### Exercício 34
+### Exercício 35
+### Exercício 36
+### Exercício 37
