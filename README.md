@@ -109,6 +109,9 @@ Faça um programa que leia o peso de algumas pessoas e diga ao final qual foi o 
 
 
 ### Exercício 27
+Faça um programa que leia o nome, idade e sexo de algumas pessoas e diga ao final a média de idade do grupo, o nome e idade do homem mais velho e se existem mulheres com menos de 20 anos de idade. É o usuário que deve determinar o número de pessoas, o nome , a idade e o sexo de cada um deles.
+
+
 ### Exercício 28
 ### Exercício 29
 ### Exercício 31
