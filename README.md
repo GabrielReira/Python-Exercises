@@ -49,7 +49,7 @@ Faça um programa que peça ao usuário que digite seu nome completo e depois re
 
 
 ### Exercício 12
-Faça um programa que seja capaz de pensar em um número inteiro entre 0 e 5 e peça ao usuário tentar descobrir qual foi o número escolhido. Depois exiba na tela se o usuário acertou ou não.
+Faça um programa que seja capaz de pensar em um número inteiro entre 0 e 5 e peça que o usuário tente descobrir qual foi o número escolhido. Depois exiba na tela se o usuário acertou ou não.
 
 
 ### Exercício 13
@@ -113,11 +113,45 @@ Faça um programa que leia o nome, idade e sexo de algumas pessoas e diga ao fin
 
 
 ### Exercício 28
+Faça um programa que seja capaz de pensar em um número inteiro entre 0 e 10 e peça que o usuário tente descobrir qual foi o número escolhido. O programa só deve finalizar quando o usuário acertar. Ao final mostre o número de tentativas.
+
+
 ### Exercício 29
+Faça um programa que funcione como uma calculadora. O programa deve pedir ao usuário que digite dois números e depois apresentar um menu com as seguintes opções: somar, subtrair, multiplicar, dividir, saber qual o maior, digitar novos números e sair do programa.
+
+
+### Exercício 30
+Faça um programa que leia um número e mostre o seu cálculo fatorial sem fazer uso da biblioteca de matemática.
+
+
 ### Exercício 31
+Faça um programa que realize o cálculo da Sequência de Fibonacci. O usuário deve escolher o número de termos a serem exibidos.
+
+
 ### Exercício 32
+Faça um programa que leia vário números inteiros e ao final mostre quantos números foram digitados, a soma e a média entre eles. O programa só deve finalizar quando o usuário digitar o valor '999'.
+
+
 ### Exercício 33
+Faça um programa que exiba a tabuada dos números e que só finaliza quando o usuário digitar um número negativo.
+
+
 ### Exercício 34
+Faça um programa que seja capaz de jogar Par ou Ímpar com o usuário. O jogo só pode finalizar quando o usuário perder e deve exibir o total de vitórias que ele obteve.
+
+
 ### Exercício 35
+Faça um programa que leia a idade e o sexo de várias pessoas. A cada pessoa cadastrada, o programa deve perguntar se o usuário deseja cadastrar mais alguém. Ao final, mostre quantas pessoas possuem mais de 18 anos, quantos homens foram cadastrados e quantas mulheres possuem menos de 21 anos de idade.
+
+
 ### Exercício 36
+Faça um programa que leia o nome e o preço de vários produtos. A cada produto cadastrado, o programa deve perguntar se o usuário deseja cadastras mais alguma coisa. Ao final, mostre qual foi o total gasto, quantos produtos custam mais de 500 reais e qual é o nome e preço do produto mais barato.
+
+
 ### Exercício 37
+Faça um programa que simule o funcionamento de um caixa eletrônico. Primeiro pergunte ao usuário qual o valor do saque e depois informe quantas cédulas de cada valor serão entregues.
+
+
+---
+
+<p align="center"><strong>Por <a href="https://www.linkedin.com/in/gabriel-reira-5a8a871a9/" target="_blank">Gabriel Reira</a></strong></p>
