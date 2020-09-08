@@ -152,6 +152,10 @@ Faça um programa que leia o nome e o preço de vários produtos. A cada produto
 Faça um programa que simule o funcionamento de um caixa eletrônico. Primeiro pergunte ao usuário qual o valor do saque e depois informe quantas cédulas de cada valor serão entregues.
 
 
+### Exercício 38
+Faça um programa que encontre as raízes de uma equação do segundo grau. Caso o discriminante seja igual a zero, exiba uma mensagem dizendo que a equação possui apenas uma raiz real, e caso o discriminante seja menor que zero, exiba uma mensagem dizendo que a equação não possui raízes reais.
+
+
 ---
 
 <p align="center"><strong>Por <a href="https://www.linkedin.com/in/gabriel-reira-5a8a871a9/" target="_blank">Gabriel Reira</a></strong></p>
