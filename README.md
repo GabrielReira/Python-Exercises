@@ -156,6 +156,11 @@ Faça um programa que simule o funcionamento de um caixa eletrônico. Primeiro p
 Faça um programa que encontre as raízes de uma equação do segundo grau. Caso o discriminante seja igual a zero, exiba uma mensagem dizendo que a equação possui apenas uma raiz real, e caso o discriminante seja menor que zero, exiba uma mensagem dizendo que a equação não possui raízes reais.
 
 
+### Exercício 39
+Faça um programa que peça ao usuário que digite um número inteiro qualquer e seja capaz de dizer se esse número possui dígitos adjacentes iguais. Por exemplo: o número 123<strong>44</strong>56789 é um número com dígitos adjacentes iguais.
+
+
 ---
+
 
 <p align="center"><strong>Por <a href="https://www.linkedin.com/in/gabriel-reira-5a8a871a9/" target="_blank">Gabriel Reira</a></strong></p>
