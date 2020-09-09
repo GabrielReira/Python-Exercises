@@ -160,6 +160,10 @@ Faça um programa que encontre as raízes de uma equação do segundo grau. Caso
 Faça um programa que peça ao usuário que digite um número inteiro qualquer e seja capaz de dizer se esse número possui dígitos adjacentes iguais. Por exemplo: o número 123<strong>44</strong>56789 é um número com dígitos adjacentes iguais.
 
 
+### Exercício 40
+Faça um programa que peça que o usuário digite um número inteiro qualquer, depois calcule e exiba a soma dos dígitos desse número.
+
+
 ---
 
 
