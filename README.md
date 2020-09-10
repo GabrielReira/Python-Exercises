@@ -164,6 +164,10 @@ Faça um programa que peça ao usuário que digite um número inteiro qualquer e
 Faça um programa que peça que o usuário digite um número inteiro qualquer, depois calcule e exiba a soma dos dígitos desse número.
 
 
+### Exercício 41
+Faça um programa que peça para o usuário ir digitando alguns números e os insira em uma lista. Essa lista não pode conter valores repetidos e o programa só finaliza quando o usuário digitar o valor 0. Ao final, exiba os valores digitados em ordem crescente.
+
+
 ---
 
 
