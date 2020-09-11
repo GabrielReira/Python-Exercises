@@ -129,7 +129,7 @@ Faça um programa que realize o cálculo da Sequência de Fibonacci. O usuário 
 
 
 ### Exercício 32
-Faça um programa que leia vário números inteiros e ao final mostre quantos números foram digitados, a soma e a média entre eles. O programa só deve finalizar quando o usuário digitar o valor '999'.
+Faça um programa que leia vário números inteiros e ao final mostre quantos números foram digitados, a soma e a média entre eles. O programa só deve finalizar se o valor digitado pelo usuário for '999'.
 
 
 ### Exercício 33
@@ -170,6 +170,10 @@ Faça um programa que peça para o usuário ir digitando alguns números e os in
 
 ### Exercício 42
 Faça um programa que peça para o usuário digitar alguns números e os insira automaticamente em uma lista de ordem crescente já na posição correta. É o usuário quem deve determinar o número de valores que ele deseja inserir. Ao final, exiba os valores da lista já em ordem crescente. Não pode fazer uso do método <strong>sort()</strong>.
+
+
+### Exercício 43
+Faça um programa que leia diversos números digitados pelo usuário e os armazene em três listas distintas: a primeira deve conter todos os números; a segunda deve conter apenas os números pares; e a terceira deve conter apenas os números ímpares. O programa só deve finalizar se o valor digitado pelo usuário for '0'. Ao final, exiba o conteúdo das três listas geradas.
 
 
 ---
