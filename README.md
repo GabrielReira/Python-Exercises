@@ -168,6 +168,10 @@ Faça um programa que peça que o usuário digite um número inteiro qualquer, d
 Faça um programa que peça para o usuário ir digitando alguns números e os insira em uma lista. Essa lista não pode conter valores repetidos e o programa só finaliza quando o usuário digitar o valor 0. Ao final, exiba os valores digitados em ordem crescente.
 
 
+### Exercício 42
+Faça um programa que peça para o usuário digitar alguns números e os insira automaticamente em uma lista de ordem crescente já na posição correta. É o usuário quem deve determinar o número de valores que ele deseja inserir. Ao final, exiba os valores da lista já em ordem crescente. Não pode fazer uso do método <strong>sort()</strong>.
+
+
 ---
 
 
