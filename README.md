@@ -188,6 +188,10 @@ Faça um programa que peça para o usuário digitar alguns números e seja capaz
 Faça um programa que leia nome e peso de várias pessoas guardando tudo em <strong>apenas uma</strong> lista. No final, exiba: quantas pessoas foram cadastradas; o menor e o maior peso registrado; as pessoas com mais de 90kg; as pessoas com menos de 60kg.
 
 
+### Exercício 47
+Faça um programa que crie uma matriz de dimensão 3x3 e permita ao usuário preencher com os valores. Ao final, exiba: toda a matriz; a soma dos valores pares digitados; o maior valor da segunda linha; a soma dos valores da terceira coluna.
+
+
 ---
 
 
