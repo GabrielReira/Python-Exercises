@@ -173,7 +173,7 @@ Faça um programa que peça para o usuário digitar alguns números e os insira 
 
 
 ### Exercício 43
-Faça um programa que leia diversos números digitados pelo usuário e os armazene em três listas distintas: a primeira deve conter todos os números; a segunda deve conter apenas os números pares; e a terceira deve conter apenas os números ímpares. O programa só deve finalizar se o valor digitado pelo usuário for '0'. Ao final, exiba o conteúdo das três listas geradas.
+Faça um programa que leia diversos números digitados pelo usuário e cadastre-os em <strong>uma única</strong> lista que mantenha separados os valores pares e ímpares. Ao final, exiba os valores pares e ímpares em ordem crescente.
 
 
 ### Exercício 44
@@ -186,6 +186,7 @@ Faça um programa que peça para o usuário digitar alguns números e seja capaz
 
 ### Exercício 46
 Faça um programa que leia nome e peso de várias pessoas guardando tudo em <strong>apenas uma</strong> lista. No final, exiba: quantas pessoas foram cadastradas; o menor e o maior peso registrado; as pessoas com mais de 90kg; as pessoas com menos de 60kg.
+
 
 ---
 

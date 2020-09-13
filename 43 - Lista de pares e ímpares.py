@@ -1,23 +1,18 @@
-# PROGRAMA QUE VAI LER VÁRIOS NÚMEROS E COLOCÁ-LOS EM DUAS LISTAS
-# DISTINTA DE PARES E ÍMPARES.
-# O PROGRAMA DEVE FINALIZAR SE O USUÁRIO DIGITAR 0.
+# PROGRAMA QUE LEIA ALGUNS NÚMEROS DIGITADOS PELO USUÁRIO E OS ARMAZENE
+# EM UMA ÚNICA LISTA. NO FINAL, EXIBA QUAIS FORAM OS VALORES PARES E 
+# QUAIS FORAM OS VALORES ÍMPARES.
 
-number = 1
-all_numbers = []
-even_numbers = []
-odd_numbers = []
+all_numbers = [[], []]
 
-while number != 0:
-    number = int(input('Digite um valor: '))
-    all_numbers.append(number)
-all_numbers.remove(0)
+n = int(input('Quantos valores você gostaria de informar? '))
 
-for number in all_numbers:
+for i in range(1, n):
+    number = int(input(f'{i}º valor: '))
+    
     if number % 2 == 0:
-        even_numbers.append(number)
+        all_numbers[0].append(number)
     else:
-        odd_numbers.append(number)
+        all_numbers[1].append(number)
 
-print(f'Os números digitados foram: {all_numbers}')
-print(f'Os números pares são: {even_numbers}')
-print(f'Os números ímpares são: {odd_numbers}')
+print(f'Os valores pares são: {sorted(all_numbers[0])}')
+print(f'Os valores ímpares são: {sorted(all_numbers[1])}')
