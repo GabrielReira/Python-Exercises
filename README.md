@@ -176,6 +176,10 @@ Faça um programa que peça para o usuário digitar alguns números e os insira 
 Faça um programa que leia diversos números digitados pelo usuário e os armazene em três listas distintas: a primeira deve conter todos os números; a segunda deve conter apenas os números pares; e a terceira deve conter apenas os números ímpares. O programa só deve finalizar se o valor digitado pelo usuário for '0'. Ao final, exiba o conteúdo das três listas geradas.
 
 
+### Exercício 44
+Faça um programa que leia algumas palavras digitadas pelo usuário e ao final exiba todas as vogais de cada palavra.
+
+
 ---
 
 
