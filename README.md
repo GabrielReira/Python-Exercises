@@ -177,7 +177,11 @@ Faça um programa que leia diversos números digitados pelo usuário e os armaze
 
 
 ### Exercício 44
-Faça um programa que leia algumas palavras digitadas pelo usuário e ao final exiba todas as vogais de cada palavra.
+Faça um programa que leia algumas palavras digitadas pelo usuário e ao final exiba as vogais de cada palavra.
+
+
+### Exercício 45
+Faça um programa que peça para o usuário digitar alguns números e seja capaz de armazenar a posição do maior e do menor valor digitado. Se o maior ou menor valor tiver sido digitado mais de uma vez, o programa deve exibir todas as posições em que o número foi digitado.
 
 
 ---
