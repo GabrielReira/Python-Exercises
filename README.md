@@ -184,6 +184,9 @@ Faça um programa que leia algumas palavras digitadas pelo usuário e ao final e
 Faça um programa que peça para o usuário digitar alguns números e seja capaz de armazenar a posição do maior e do menor valor digitado. Se o maior ou menor valor tiver sido digitado mais de uma vez, o programa deve exibir todas as posições em que o número foi digitado.
 
 
+### Exercício 46
+Faça um programa que leia nome e peso de várias pessoas guardando tudo em <strong>apenas uma</strong> lista. No final, exiba: quantas pessoas foram cadastradas; o menor e o maior peso registrado; as pessoas com mais de 90kg; as pessoas com menos de 60kg.
+
 ---
 
 
