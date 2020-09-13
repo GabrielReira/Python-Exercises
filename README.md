@@ -192,6 +192,10 @@ Faça um programa que leia nome e peso de várias pessoas guardando tudo em <str
 Faça um programa que crie uma matriz de dimensão 3x3 e permita ao usuário preencher com os valores. Ao final, exiba: toda a matriz; a soma dos valores pares digitados; o maior valor da segunda linha; a soma dos valores da terceira coluna.
 
 
+### Exercício 48
+Faça um programa que ajude um jogador da Mega-Sena a criar palpites. O programa deve perguntar ao usuário quantos jogos ele gostaria que fossem gerados e vai sortear 6 números entre 1 e 60 para cada jogo.
+
+
 ---
 
 
