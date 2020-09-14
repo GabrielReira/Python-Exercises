@@ -200,6 +200,10 @@ Faça um programa que ajude um jogador da Mega-Sena a criar palpites. O programa
 Faça um programa que simule o comportamento de um boletim escolar. O programa deve ler o nome e duas notas de alguns alunos que o usuário quiser cadastrar e guardar tudo em uma <strong>única lista</strong> composta. No final, mostre um boletim contendo a média de cada aluno e permita que o usuário possa ver as notas 1 e 2 de cada um individualmente.
 
 
+### Exercício 50
+Faça um programa onde quatro jogadores joguem um dado e obtenham resultados aleatórios. O programa deverá guardar esses resultados em um dicionário e colocá-lo em ordem decrescente, da pessoa que obteve o maior número no dado até a que obteve o menor. Ao final, exiba como ficou o ranking.
+
+
 ---
 
 
