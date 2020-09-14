@@ -196,6 +196,10 @@ Faça um programa que crie uma matriz de dimensão 3x3 e permita ao usuário pre
 Faça um programa que ajude um jogador da Mega-Sena a criar palpites. O programa deve perguntar ao usuário quantos jogos ele gostaria que fossem gerados e vai sortear 6 números entre 1 e 60 para cada jogo.
 
 
+### Exercício 49
+Faça um programa que simule o comportamento de um boletim escolar. O programa deve ler o nome e duas notas de alguns alunos que o usuário quiser cadastrar e guardar tudo em uma <strong>única lista</strong> composta. No final, mostre um boletim contendo a média de cada aluno e permita que o usuário possa ver as notas 1 e 2 de cada um individualmente.
+
+
 ---
 
 
