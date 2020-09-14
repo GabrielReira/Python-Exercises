@@ -204,6 +204,10 @@ Faça um programa que simule o comportamento de um boletim escolar. O programa d
 Faça um programa onde quatro jogadores joguem um dado e obtenham resultados aleatórios. O programa deverá guardar esses resultados em um dicionário e colocá-lo em ordem decrescente, da pessoa que obteve o maior número no dado até a que obteve o menor. Ao final, exiba como ficou o ranking.
 
 
+### Exercício 51
+Faça um programa que gerencie o aproveitamento de um jogador de futebol. O programa deve ler o nome do jogador, seu total de jogos e o número de gols marcados em cada um desses jogos. Todas as informações devem ser guardadas em um dicionário. No final, exiba o total de gols feitos e o número de gols por jogo (aproveitamento).
+
+
 ---
 
 
