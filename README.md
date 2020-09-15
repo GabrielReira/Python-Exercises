@@ -208,6 +208,10 @@ Faça um programa onde quatro jogadores joguem um dado e obtenham resultados ale
 Faça um programa que gerencie o aproveitamento de um jogador de futebol. O programa deve ler o nome do jogador, seu total de jogos e o número de gols marcados em cada um desses jogos. Todas as informações devem ser guardadas em um dicionário. No final, exiba o total de gols feitos e o número de gols por jogo (aproveitamento).
 
 
+### Exercício 52
+Faça um programa que leia nome, idade e sexo de algumas pessoas, guardando os dados de cada um em um dicionário e todos os dicionários em uma lista. No final, exiba: quantas pessoas foram cadastradas; a média de idade; as mulheres cadastradas; e as pessoas maiores de idade.
+
+
 ---
 
 
