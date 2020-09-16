@@ -1,10 +1,8 @@
 # VERSÃO 2.
-# AGORA O PROGRAMA APRESENTA UM MENU COM A OPÇÃO PARA SABER QUAL O MAIOR NÚMERO,
-# OPÇÃO PARA DIGITAR NOVOS NÚMEROS E UMA OPÇÃO PARA SAIR DO PROGRAMA.
-# O PROGRAMA SÓ FINALIZARÁ QUANDO O USUÁRIO DIGITAR A OPÇÃO 7.
 
 num1 = int(input('Digite o primeiro número >>> '))
 num2 = int(input('Digite o segundo número >>> '))
+
 menu = 0
 while menu != 7:
     menu = int(input(""" O que você gostaria de fazer com esses números?
@@ -38,9 +36,11 @@ while menu != 7:
         num1 = int(input('Digite o primeiro número >>> '))
         num2 = int(input('Digite o segundo número >>> '))
 
-    elif menu == 7: print(':(')
+    elif menu == 7:
+        print(':(')
 
-    else: print('Opção inválida.')
+    else:
+        print('Opção inválida.')
 
     print('~^~'*20)
 else: print('Programa finalizado.')

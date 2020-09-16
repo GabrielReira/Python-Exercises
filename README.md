@@ -85,7 +85,7 @@ Faça um programa que exiba a tabuada de um número inteiro qualquer.
 
 
 ### Exercício 21
-Faça um programa que seja capaz de calcular a quantidade de números ímpares e múltiplos de 3 que existem no intervalo de 1 a 500 e qual a soma entre eles.
+Faça um programa que seja capaz de calcular a quantidade de números ímpares e múltiplos de 3 que existem no intervalo de 1 a 500, e qual a soma entre eles.
 
 
 ### Exercício 22
@@ -93,15 +93,15 @@ Faça um programa que calcule Progressão Aritmética (PA). Primeiro peça que o
 
 
 ### Exercício 23
-Faça um programa que peça ao usuário para digitar um número e diga se esse número é primo. Caso não seja, mostre por quantos números ele é divisível.
+Faça um programa que leia um número digitado pelo usuário e diga se esse número é primo. Caso não seja, mostre por quantos números ele é divisível.
 
 
 ### Exercício 24
-Faça um programa que leia uma palavra ou frase qualquer e diga se ela é um palíndromo. Observação: desconsidere os espaços.
+Faça um programa que leia uma palavra ou frase qualquer e diga se ela é um palíndromo. Desconsidere os espaços.
 
 
 ### Exercício 25
-Faça um programa que leia o ano de nascimento de algumas pessoas e diga ao final quantas delas são maiores de idade e quantas são menores. É o usuário que deve determinar o número de pessoas e o ano de nascimento de cada uma delas.
+Faça um programa que leia o ano de nascimento de algumas pessoas digitadas pelo usuário e diga ao final quantas delas são maiores de idade e quantas são menores. Utilize a biblioteca datetime.
 
 
 ### Exercício 26
@@ -109,7 +109,7 @@ Faça um programa que leia o peso de algumas pessoas e diga ao final qual foi o 
 
 
 ### Exercício 27
-Faça um programa que leia o nome, idade e sexo de algumas pessoas. No final, exiba: a média de idade do grupo; o nome e idade do homem mais velho; e se existem mulheres com menos de 20 anos de idade.
+Faça um programa que leia o nome, idade e sexo de algumas pessoas. No final, exiba: a média de idade do grupo; o nome e idade do homem mais velho; e quantas mulheres possuem menos de 20 anos de idade.
 
 
 ### Exercício 28
@@ -117,7 +117,7 @@ Faça um programa que seja capaz de pensar em um número inteiro entre 0 e 10 e 
 
 
 ### Exercício 29
-Faça um programa que funcione como uma calculadora. O programa deve pedir ao usuário que digite dois números e depois apresentar um menu com as seguintes opções: somar, subtrair, multiplicar, dividir, saber qual o maior, digitar novos números e sair do programa.
+Faça um programa que funcione como uma calculadora. O programa deve pedir ao usuário que digite dois números e depois apresentar um menu com as seguintes opções: somar; subtrair; multiplicar; dividir; saber qual o maior; digitar novos números; e sair do programa.
 
 
 ### Exercício 30

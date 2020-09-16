@@ -1,5 +1,3 @@
-# PROGRAMA QUE FAÇA O COMPUTADOR JOGAR JOKENPÔ COM O USUÁRIO.
-
 from random import randint
 from time import sleep
 
