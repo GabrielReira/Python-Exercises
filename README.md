@@ -25,7 +25,7 @@ Faça um programa que realize o reajuste salarial de uma empresa. Peça o valor 
 
 
 ### Exercício 06
-Faça um programa que peça ao usuário o valor de dois catetos de um triângulo qualquer e realize o cálculo de sua hipotenusa.
+Faça um programa que calcule a hipotenusa de um triângulo a partir dos valores dos catetos que o usuário digitar.
 
 
 ### Exercício 07
@@ -37,15 +37,15 @@ Faça um programa que realize o sorteio entre três itens que o usuário digitar
 
 
 ### Exercício 09
-Faça um programa que peça ao usuário o nome de cinco estudantes e depois embaralhe a ordem entre eles para exibir qual será a ordem de apresentação de um determinado trabalho.
+Faça um programa que peça ao usuário o nome de cinco estudantes e depois embaralhe a ordem entre seus nomes e exiba qual será a sequência de apresentação de um determinado trabalho.
 
 
 ### Exercício 10
-Faça um programa que funcione como uma calculadora básica. Peça ao usuário que digite dois valores e pergunte qual operação ele gostaria de realizar com esses números. Depois exiba o resultado.
+Faça um programa que funcione como uma calculadora básica. Peça ao usuário que digite dois valores e pergunte qual operação ele gostaria de realizar com esses números e exiba o resultado.
 
 
 ### Exercício 11
-Faça um programa que peça ao usuário que digite seu nome completo e depois retorne informações sobre ele, tais como: o número de letras de todo o nome, a quantidade de letras no primeiro e segundo nome e se o nome possui 'Silva'.
+Faça um programa que peça para o usuário digitar seu nome completo e depois retorne informações sobre ele, tais como: o número de letras de todo o nome; qual é seu primeiro nome e sua quantidade de letras; qual é seu último nome e sua quantidade de letras; e se o nome possui 'Silva'.
 
 
 ### Exercício 12
@@ -61,7 +61,7 @@ Faça um programa que peça ao usuário que digite um ano qualquer e diga se o a
 
 
 ### Exercício 15
-Faça um programa que peça que o usuário digite o valor de três retas e diga se essas retas podem ou não formar um triângulo qualquer.
+Faça um programa que peça que o usuário digite o valor de três retas e diga se essas retas podem ou não formar um triângulo.
 
 
 ### Exercício 16

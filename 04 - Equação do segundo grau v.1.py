@@ -1,5 +1,4 @@
 # VERSÃO 1.
-# PROGRAMA QUE RESOLVA UMA EQUAÇÃO QUADRÁTICA.
 
 print('EQUAÇÃO DO SEGUNDO GRAU!')
 a = float(input('Digite o valor de a: '))

@@ -1,7 +1,3 @@
-# PROGRAMA QUE LEIA O QUE O USUÁRIO DIGITOU E DIGA TODAS AS INFORMAÇÕES
-# POSSÍVEIS SOBRE.
-
-print('====== O QUE VOCÊ DIGITOU É... ======')
 p = input('Digite algo: ')
 print('Tipo primitivo desse valor:', type(p))
 print('É um número?', p.isnumeric())
@@ -12,7 +8,7 @@ print('Estão todas as letras em minúsuclo?', p.islower())
 print('Estão todas as letras em maiúsculo?', p.isupper())
 print('Está capitalizada?', p.istitle())
 
-# OUTRA RESOLUÇÃO DO DESAFIO.
+# Outra resolução do desafio.
 q = input('Digite algo: ')
 print(f'Tipo primitivo desse valor: {type(q)}')
 print(f'É um número? {q.isnumeric()}')
