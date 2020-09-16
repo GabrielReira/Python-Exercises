@@ -212,7 +212,11 @@ Faça um programa que gerencie o aproveitamento de um jogador de futebol. O prog
 Faça um programa que leia nome, idade e sexo de algumas pessoas, guardando os dados de cada um em um dicionário e todos os dicionários em uma lista. No final, exiba: quantas pessoas foram cadastradas; a média de idade; as mulheres cadastradas; e as pessoas maiores de idade.
 
 
+### Exercício 53
+Faça um programa que calcule Progressão Aritmética (PA). O programa deve possuir uma função que receba três parâmetros: primeiro termo, último termo e a razão. Esses valores devem ser adicionados pelo usuário e o programa deve apresentar o resultado da PA. Esse exercício é como se fosse uma "recriação" do range().
+
+
 ---
 
 
-<p align="center"><strong>Por <a href="https://www.linkedin.com/in/gabriel-reira-5a8a871a9/" target="_blank">Gabriel Reira</a></strong></p>
+<p align="center"><strong>Por <a href="https://www.linkedin.com/in/gabrielreira/" target="_blank">Gabriel Reira</a></strong></p>
