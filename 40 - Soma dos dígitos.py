@@ -1,5 +1,3 @@
-# PROGRAMA QUE FAÇA A SOMA DOS DÍGITOS DE UM NÚMERO.
-
 number = int(input('Digite um número inteiro: '))
 
 digitsSum = 0

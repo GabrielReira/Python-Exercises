@@ -1,6 +1,3 @@
-# PROGRAMA QUE ANALISE UM NÚMERO QUALQUER E DIGA SE ELE POSSUI DÍGITOS
-# ADJACENTES IGUAIS.
-
 number = int(input('Digite um número inteiro qualquer: '))
 
 while number != 0:

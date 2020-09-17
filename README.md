@@ -129,27 +129,27 @@ Faça um programa que realize o cálculo da Sequência de Fibonacci. O usuário 
 
 
 ### Exercício 32
-Faça um programa que leia vário números inteiros e ao final mostre quantos números foram digitados, a soma e a média entre eles. O programa só deve finalizar se o valor digitado pelo usuário for '999'.
+Faça um programa que leia vário números inteiros digitados pelo usuário e só interrompa se o valor digitado for '999'. No final, exiba: quantos números foram digitados; a soma entre esses valores; e a média entre eles.
 
 
 ### Exercício 33
-Faça um programa que exiba a tabuada dos números e que só finaliza quando o usuário digitar um número negativo.
+Faça um programa que exiba a tabuada de um número digitado pelo usuário e só finalize se esse valor for negativo.
 
 
 ### Exercício 34
-Faça um programa que seja capaz de jogar Par ou Ímpar com o usuário. O jogo só pode finalizar quando o usuário perder e deve exibir o total de vitórias que ele obteve.
+Faça um programa que seja capaz de jogar Par ou Ímpar com o usuário. O jogo só será finalizado quando o usuário perder, exibindo o total de vitórias que ele obteve.
 
 
 ### Exercício 35
-Faça um programa que leia a idade e o sexo de várias pessoas. A cada pessoa cadastrada, o programa deve perguntar se o usuário deseja cadastrar mais alguém. Ao final, mostre quantas pessoas possuem mais de 18 anos, quantos homens foram cadastrados e quantas mulheres possuem menos de 21 anos de idade.
+Faça um programa que leia a idade e o sexo de várias pessoas. A cada pessoa cadastrada o programa deve perguntar se o usuário deseja cadastrar mais alguém. Ao final, exiba: o número de pessoas com mais de 18 anos; quantos homens foram cadastrados; e quantas mulheres possuem menos de 21 anos de idade.
 
 
 ### Exercício 36
-Faça um programa que leia o nome e o preço de vários produtos. A cada produto cadastrado, o programa deve perguntar se o usuário deseja cadastras mais alguma coisa. Ao final, mostre qual foi o total gasto, quantos produtos custam mais de 500 reais e qual é o nome e preço do produto mais barato.
+Faça um programa que leia o nome e o preço de vários produtos. A cada produto cadastrado o programa deve perguntar se o usuário deseja cadastras mais algum item. Ao final, mostre: o total gasto; quantos produtos custam mais de 500 reais; e qual é o nome e preço do produto mais barato.
 
 
 ### Exercício 37
-Faça um programa que simule o funcionamento de um caixa eletrônico. Primeiro pergunte ao usuário qual o valor do saque e depois informe quantas cédulas de cada valor serão entregues.
+Faça um programa que simule o funcionamento de um caixa eletrônico. Primeiro peça para o usuário digitar um valor de saque e, em seguida, calcule o menor número de notas possíveis no qual o valor pode ser decomposto. As notas consideradas são de 50, 20, 10 e 1. Ao final, informe quantas cédulas de cada valor serão entregues.
 
 
 ### Exercício 38
@@ -157,11 +157,11 @@ Faça um programa que encontre as raízes de uma equação do segundo grau. Caso
 
 
 ### Exercício 39
-Faça um programa que peça ao usuário que digite um número inteiro qualquer e seja capaz de dizer se esse número possui dígitos adjacentes iguais. Por exemplo: o número 123<strong>44</strong>56789 é um número com dígitos adjacentes iguais.
+Faça um programa que leia um número inteiro qualquer digitado pelo usuário e seja capaz de dizer se esse número possui dígitos adjacentes iguais. Por exemplo: o número 123**44**56789 é um número com dígitos adjacentes iguais.
 
 
 ### Exercício 40
-Faça um programa que peça que o usuário digite um número inteiro qualquer, depois calcule e exiba a soma dos dígitos desse número.
+Faça um programa que peça que o usuário digite um número inteiro qualquer. A seguir, calcule e exiba a soma dos dígitos desse número.
 
 
 ### Exercício 41
@@ -169,11 +169,11 @@ Faça um programa que peça para o usuário ir digitando alguns números e os in
 
 
 ### Exercício 42
-Faça um programa que peça para o usuário digitar alguns números e os insira automaticamente em uma lista de ordem crescente já na posição correta. É o usuário quem deve determinar o número de valores que ele deseja inserir. Ao final, exiba os valores da lista já em ordem crescente. Não pode fazer uso do método <strong>sort()</strong>.
+Faça um programa que peça para o usuário digitar alguns números e os insira automaticamente em uma lista de ordem crescente já na posição correta. É o usuário quem deve determinar o número de valores que ele deseja inserir. Ao final, exiba os valores da lista já em ordem crescente. Não pode fazer uso do método **sort()**.
 
 
 ### Exercício 43
-Faça um programa que leia diversos números digitados pelo usuário e cadastre-os em <strong>uma única</strong> lista que mantenha separados os valores pares e ímpares. Ao final, exiba os valores pares e ímpares em ordem crescente.
+Faça um programa que leia diversos números digitados pelo usuário e cadastre-os em **uma única** lista que mantenha separados os valores pares e ímpares. Ao final, exiba os valores pares e ímpares em ordem crescente.
 
 
 ### Exercício 44
@@ -185,7 +185,7 @@ Faça um programa que peça para o usuário digitar alguns números e seja capaz
 
 
 ### Exercício 46
-Faça um programa que leia nome e peso de várias pessoas guardando tudo em <strong>apenas uma</strong> lista. No final, exiba: quantas pessoas foram cadastradas; o menor e o maior peso registrado; as pessoas com mais de 90kg; as pessoas com menos de 60kg.
+Faça um programa que leia nome e peso de várias pessoas guardando tudo em **apenas uma** lista. No final, exiba: quantas pessoas foram cadastradas; o menor e o maior peso registrado; as pessoas com mais de 90kg; as pessoas com menos de 60kg.
 
 
 ### Exercício 47
@@ -197,7 +197,7 @@ Faça um programa que ajude um jogador da Mega-Sena a criar palpites. O programa
 
 
 ### Exercício 49
-Faça um programa que simule o comportamento de um boletim escolar. O programa deve ler o nome e duas notas de alguns alunos que o usuário quiser cadastrar e guardar tudo em uma <strong>única lista</strong> composta. No final, mostre um boletim contendo a média de cada aluno e permita que o usuário possa ver as notas 1 e 2 de cada um individualmente.
+Faça um programa que simule o comportamento de um boletim escolar. O programa deve ler o nome e duas notas de alguns alunos que o usuário quiser cadastrar e guardar tudo em uma **única lista** composta. No final, mostre um boletim contendo a média de cada aluno e permita que o usuário possa ver as notas 1 e 2 de cada um individualmente.
 
 
 ### Exercício 50
