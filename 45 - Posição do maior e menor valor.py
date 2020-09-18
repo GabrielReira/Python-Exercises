@@ -1,6 +1,3 @@
-# PROGRAMA QUE LEIA ALGUNS NÚMEROS DIGITADOS PELO USUÁRIO E ARMAZENA 
-# A POSIÇÃO DO MENOR E DO MAIOR VALOR DIGITADO.
-
 numbers = []
 
 n = int(input('Quantos números você deseja digitar? '))
@@ -16,6 +13,7 @@ for pos, number in enumerate(numbers):
         highest_number_pos.append(pos)
     if number == min(numbers):
         lowest_number_pos.append(pos)
+
 
 print(f'O maior número digitado foi: {max(numbers)}, na(s) posição(ões) {highest_number_pos}.')
 print(f'O menor número digitado foi: {min(numbers)}, na(s) posição(ões) {lowest_number_pos}')

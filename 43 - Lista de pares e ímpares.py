@@ -1,7 +1,3 @@
-# PROGRAMA QUE LEIA ALGUNS NÚMEROS DIGITADOS PELO USUÁRIO E OS ARMAZENE
-# EM UMA ÚNICA LISTA. NO FINAL, EXIBA QUAIS FORAM OS VALORES PARES E 
-# QUAIS FORAM OS VALORES ÍMPARES.
-
 all_numbers = [[], []]
 
 n = int(input('Quantos valores você gostaria de informar? '))

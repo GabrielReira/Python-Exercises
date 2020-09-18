@@ -1,8 +1,3 @@
-# PROGRAMA QUE CRIE UMA MATRIZ 3X3 E PREENCHA COM VALORES LIDOS PELO
-# TECLADO. NO FINAL, MOSTRE A MATRIZ NA TELA, A SOMA DE TODOS OS VALORES
-# PARES DIGITADOS, O MAIOR VALOR DA SEGUNDA LINHA E A SOMA DOS VALORES
-# DA TERCEIRA COLUNA.
-
 array = [[[],[],[]],[[],[],[]],[[],[],[]]]
 
 sum_even = sum_third_column = 0
@@ -18,7 +13,7 @@ for i in range(3):
             sum_third_column += array[i][j]
 
 
-# Exibindo a matriz criada.
+# Exibindo a matriz visualmente formatada.
 print('=-='*3, 'MATRIZ 3X3', '=-='*3)
 for x in range(3):
     for y in range(3):

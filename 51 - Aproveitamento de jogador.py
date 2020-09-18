@@ -1,6 +1,3 @@
-# PROGRAMA QUE GERENCIE O APROVEITAMENTO DE UM JOGADOR DE FUTEBOL.
-# TODAS AS INFORMAÇÕES GUARDADAS EM UM DICIONÁRIO.
-
 player = dict()
 goals = list()
 
@@ -12,6 +9,7 @@ for i in range(1, n + 1):
 player['gols'] = goals
 
 player['total'] = sum(player['gols'])
+
 
 # Resultado para o usuário
 print('-' * 30)

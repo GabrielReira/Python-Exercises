@@ -30,16 +30,19 @@ def arithmetic_prog(first_term, last_term, common_diff):
             first_term += common_diff
         print('FIM!')
 
+
 ft = int(input('Primeiro termo: '))
 lt = int(input('Último termo: '))
 cd = int(input('Razão: '))
 arithmetic_prog(ft, lt, cd)
 
 
-# Utilizando o range().
+
+# Como ficaria utilizando o range():
 a = int(input('Início: '))
 b = int(input('Fim: '))
 c = int(input('Razão: '))
+
 for x in range(a, b, c):
     print(x, end=' → ')
 print('FIM!')

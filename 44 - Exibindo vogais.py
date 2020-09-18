@@ -1,6 +1,3 @@
-# PROGRAMA QUE LEIA PALAVRAS DIGITADAS PELO USUÁRIO E AO FINAL 
-# EXIBA SUA VOGAIS.
-
 user_words = list()
 
 n = int(input('Quantas palavras você deseja informar? '))

@@ -109,7 +109,8 @@ Faça um programa que leia o peso de algumas pessoas e diga ao final qual foi o 
 
 
 ### Exercício 27
-Faça um programa que leia o nome, idade e sexo de algumas pessoas. No final, exiba: a média de idade do grupo; o nome e idade do homem mais velho; e quantas mulheres possuem menos de 20 anos de idade.
+Faça um programa que leia o nome, idade e sexo de algumas pessoas.
+No final, exiba: a média de idade do grupo; o nome e idade do homem mais velho; e quantas mulheres possuem menos de 20 anos de idade.
 
 
 ### Exercício 28
@@ -129,7 +130,8 @@ Faça um programa que realize o cálculo da Sequência de Fibonacci. O usuário 
 
 
 ### Exercício 32
-Faça um programa que leia vário números inteiros digitados pelo usuário e só interrompa se o valor digitado for '999'. No final, exiba: quantos números foram digitados; a soma entre esses valores; e a média entre eles.
+Faça um programa que leia vário números inteiros digitados pelo usuário e só interrompa se o valor digitado for '999'.
+No final, exiba: quantos números foram digitados; a soma entre esses valores; e a média entre eles.
 
 
 ### Exercício 33
@@ -141,15 +143,18 @@ Faça um programa que seja capaz de jogar Par ou Ímpar com o usuário. O jogo s
 
 
 ### Exercício 35
-Faça um programa que leia a idade e o sexo de várias pessoas. A cada pessoa cadastrada o programa deve perguntar se o usuário deseja cadastrar mais alguém. Ao final, exiba: o número de pessoas com mais de 18 anos; quantos homens foram cadastrados; e quantas mulheres possuem menos de 21 anos de idade.
+Faça um programa que leia a idade e o sexo de várias pessoas. A cada pessoa cadastrada o programa deve perguntar se o usuário deseja cadastrar mais alguém.
+Ao final, exiba: o número de pessoas com mais de 18 anos; quantos homens foram cadastrados; e quantas mulheres possuem menos de 21 anos de idade.
 
 
 ### Exercício 36
-Faça um programa que leia o nome e o preço de vários produtos. A cada produto cadastrado o programa deve perguntar se o usuário deseja cadastras mais algum item. Ao final, mostre: o total gasto; quantos produtos custam mais de 500 reais; e qual é o nome e preço do produto mais barato.
+Faça um programa que leia o nome e o preço de vários produtos. A cada produto cadastrado o programa deve perguntar se o usuário deseja cadastras mais algum item.
+Ao final, mostre: o total gasto; quantos produtos custam mais de 500 reais; e qual é o nome e preço do produto mais barato.
 
 
 ### Exercício 37
-Faça um programa que simule o funcionamento de um caixa eletrônico. Primeiro peça para o usuário digitar um valor de saque e, em seguida, calcule o menor número de notas possíveis no qual o valor pode ser decomposto. As notas consideradas são de 50, 20, 10 e 1. Ao final, informe quantas cédulas de cada valor serão entregues.
+Faça um programa que simule o funcionamento de um caixa eletrônico. Primeiro peça para o usuário digitar um valor de saque e, em seguida, calcule o menor número de notas possíveis no qual o valor pode ser decomposto. As notas consideradas são de 50, 20, 10 e 1.
+Ao final, informe quantas cédulas de cada valor serão entregues.
 
 
 ### Exercício 38
@@ -165,15 +170,18 @@ Faça um programa que peça que o usuário digite um número inteiro qualquer. A
 
 
 ### Exercício 41
-Faça um programa que peça para o usuário ir digitando alguns números e os insira em uma lista. Essa lista não pode conter valores repetidos e o programa só finaliza quando o usuário digitar o valor 0. Ao final, exiba os valores digitados em ordem crescente.
+Faça um programa que leia vários números digitados pelo usuário e os insira em uma lista. Essa lista não pode conter valores repetidos e o programa só finaliza quando o usuário digitar o valor 0.
+Ao final, exiba os valores digitados em ordem crescente.
 
 
 ### Exercício 42
-Faça um programa que peça para o usuário digitar alguns números e os insira automaticamente em uma lista de ordem crescente já na posição correta. É o usuário quem deve determinar o número de valores que ele deseja inserir. Ao final, exiba os valores da lista já em ordem crescente. Não pode fazer uso do método **sort()**.
+Faça um programa que peça para o usuário digitar alguns números e os insira automaticamente em uma lista de ordem crescente já na posição correta. É o usuário quem deve determinar o número de valores que ele deseja inserir.
+Ao final, exiba os valores da lista já em ordem crescente. Não pode fazer uso do método **sort()** nem da função **sorted()**.
 
 
 ### Exercício 43
-Faça um programa que leia diversos números digitados pelo usuário e cadastre-os em **uma única** lista que mantenha separados os valores pares e ímpares. Ao final, exiba os valores pares e ímpares em ordem crescente.
+Faça um programa que leia diversos números digitados pelo usuário e cadastre-os em **uma única lista** que mantenha separados os valores pares e ímpares.
+Ao final, exiba os valores pares e ímpares em ordem crescente.
 
 
 ### Exercício 44
@@ -185,11 +193,13 @@ Faça um programa que peça para o usuário digitar alguns números e seja capaz
 
 
 ### Exercício 46
-Faça um programa que leia nome e peso de várias pessoas guardando tudo em **apenas uma** lista. No final, exiba: quantas pessoas foram cadastradas; o menor e o maior peso registrado; as pessoas com mais de 90kg; as pessoas com menos de 60kg.
+Faça um programa que leia nome e peso de várias pessoas guardando tudo em **apenas uma** lista.
+No final, exiba: quantas pessoas foram cadastradas; o menor e o maior peso registrado; as pessoas com mais de 90kg; as pessoas com menos de 60kg.
 
 
 ### Exercício 47
-Faça um programa que crie uma matriz de dimensão 3x3 e permita ao usuário preencher com os valores. Ao final, exiba: toda a matriz; a soma dos valores pares digitados; o maior valor da segunda linha; a soma dos valores da terceira coluna.
+Faça um programa que crie uma matriz de dimensão 3x3 e preencha com valores digitados pelo usuário.
+Ao final, exiba: toda a matriz (visualmente formatada); a soma dos valores pares digitados; o maior valor da segunda linha; a soma dos valores da terceira coluna.
 
 
 ### Exercício 48
@@ -197,23 +207,37 @@ Faça um programa que ajude um jogador da Mega-Sena a criar palpites. O programa
 
 
 ### Exercício 49
-Faça um programa que simule o comportamento de um boletim escolar. O programa deve ler o nome e duas notas de alguns alunos que o usuário quiser cadastrar e guardar tudo em uma **única lista** composta. No final, mostre um boletim contendo a média de cada aluno e permita que o usuário possa ver as notas 1 e 2 de cada um individualmente.
+Faça um programa que simule o funcionamento de um boletim escolar. O programa deve ler o nome e duas notas de alguns alunos que o usuário cadastrar e guardar tudo em **uma única lista com três dimensões**.
+No final, mostre um boletim contendo a média de cada aluno e permita que o usuário possa ver as notas 1 e 2 de cada estudante individualmente.
+Exemplo de como a lista de estudantes deve ficar:
+```python
+estudantes = [['Maria', [10.0, 8.0], 9.0], ['João', [4.5, 9.5], 7.0]]
+print(estudantes[1][1][1]) # Imprime a segunda nota de João (9.5)
+```
 
 
 ### Exercício 50
-Faça um programa onde quatro jogadores joguem um dado e obtenham resultados aleatórios. O programa deverá guardar esses resultados em um dicionário e colocá-lo em ordem decrescente, da pessoa que obteve o maior número no dado até a que obteve o menor. Ao final, exiba como ficou o ranking.
+Faça um programa onde quatro jogadores joguem um dado e obtenham resultados aleatórios. O programa deverá guardar esses resultados em um dicionário e colocá-lo em ordem decrescente, da pessoa que obteve o maior número no dado até a que obteve o menor.
+Ao final, exiba como ficou o ranking.
 
 
 ### Exercício 51
-Faça um programa que gerencie o aproveitamento de um jogador de futebol. O programa deve ler o nome do jogador, seu total de jogos e o número de gols marcados em cada um desses jogos. Todas as informações devem ser guardadas em um dicionário. No final, exiba o total de gols feitos e o número de gols por jogo (aproveitamento).
+Faça um programa que gerencie o aproveitamento de um jogador de futebol. O programa deve ler o nome do jogador, seu total de jogos e o número de gols marcados em cada um desses jogos. Todas as informações devem ser guardadas em um dicionário.
+No final, exiba o total de gols feitos e o seu aproveitamento por partida (número de gols por jogo).
 
 
 ### Exercício 52
-Faça um programa que leia nome, idade e sexo de algumas pessoas, guardando os dados de cada um em um dicionário e todos os dicionários em uma lista. No final, exiba: quantas pessoas foram cadastradas; a média de idade; as mulheres cadastradas; e as pessoas maiores de idade.
+Faça um programa que leia nome, idade e sexo de algumas pessoas, guardando os dados de cada um em um dicionário e todos os dicionários em uma lista.
+No final, exiba: quantas pessoas foram cadastradas; a média de idade; as mulheres cadastradas; e as pessoas maiores de idade.
+Exemplo de como a lista de pessoas deve ficar:
+```python
+pessoas = [{'nome': 'Maria', 'idade': 42, 'sexo': 'F'}, {'nome': 'João', 'idade': 17, 'sexo': 'M'}]
+```
 
 
 ### Exercício 53
-Faça um programa que calcule Progressão Aritmética (PA). O programa deve possuir uma função que receba três parâmetros: primeiro termo, último termo e a razão. Esses valores devem ser adicionados pelo usuário e o programa deve apresentar o resultado da PA. Esse exercício é como se fosse uma "recriação" do range().
+Faça um programa que calcule Progressão Aritmética (PA). O programa deve possuir uma função que receba três parâmetros: primeiro termo, último termo e a razão. Esses valores devem ser adicionados pelo usuário e o programa deve apresentar o resultado da PA.
+Esse exercício é como se fosse uma **"recriação" do range()**.
 
 
 ---

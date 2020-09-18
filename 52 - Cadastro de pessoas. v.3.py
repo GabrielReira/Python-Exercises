@@ -1,8 +1,4 @@
 # VERSÃO 3.
-# Agora o programa armazena os dados em dicionários dentro de uma lista.
-
-# Exemplo de como a lista de pessoas deve ficar:
-# [{'nome': 'Maria', 'idade': 42, 'sexo': 'F'}, {'nome': 'João', 'idade': 17, 'sexo': 'M'}]
 
 person = dict()
 people = list()

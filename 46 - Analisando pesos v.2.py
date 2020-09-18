@@ -1,7 +1,4 @@
 # VERSÃO 2.
-# AGORA O PROGRAMA DEVE ARMAZENAR O NOME E PESO DE TODAS AS 
-# PESSOAS EM UMA LISTA E EXIBIR AO FINAL O TOTAL DE PESSOAS,
-# AQUELAS COM MAIS DE 90KG E AS COM MENOS DE 60KG.
 
 people = list()
 people_data = list()
@@ -12,8 +9,8 @@ while True:
     weight = float(input('Peso: '))
     people_data.append(weight)
 
-    # Inserir o nome e idade da pessoa na lista 'people' e 
-    # depois zerar a lista 'people_data' para cadastra outra pessoa.
+    # Inserir o nome e idade da pessoa na lista 'people' e depois
+    # zerar a lista 'people_data' para cadastra outra pessoa.
     people.append(people_data[:])
     people_data.clear()
 
@@ -37,14 +34,17 @@ for p in people:
         lower_weight = p[1]
 
 
-# Resultado para o usuário
+# Resultado para o usuário.
 print('\n','=-='*8, 'RESULTADO', '=-='*8, '\n')
+
 print(f'Total de {len(people)} pessoas.')
 print(f'O menor peso registrado foi {lower_weight}kg e o maior {greater_weight}kg.')
+
 print(f'As pessoas com mais de 90kg são: ', end='')
 for p in people:
     if p[1] > 90:
         print(f'[{p[0]}]', end='')
+
 print(f'\nAs pessoas com menos de 60kg são: ', end='')
 for p in people:
     if p[1] < 60:
