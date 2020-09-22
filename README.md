@@ -240,6 +240,10 @@ Faça um programa que calcule Progressão Aritmética (PA). O programa deve poss
 Esse exercício é como se fosse uma **"recriação" do range()**.
 
 
+### Exercício 54
+Faça um programa que calcule e encontre o **coeficiente binomial** a partir de dois valores digitados pelo usuário: um número *n* e uma classe *k*. O programa deve possuir duas funções, uma que realize o cálculo fatorial e a outra que encontre o número binomial e apresente o resultado final. Não pode fazer uso de bibliotecas do Python.
+
+
 ---
 
 
