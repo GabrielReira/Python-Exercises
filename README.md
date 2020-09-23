@@ -207,8 +207,8 @@ Faça um programa que ajude um jogador da Mega-Sena a criar palpites. O programa
 
 
 ### Exercício 49
-Faça um programa que simule o funcionamento de um boletim escolar. O programa deve ler o nome e duas notas de alguns alunos que o usuário cadastrar e guardar tudo em **uma única lista com três dimensões**.
-No final, mostre um boletim contendo a média de cada aluno e permita que o usuário possa ver as notas 1 e 2 de cada estudante individualmente.
+Faça um programa que simule o funcionamento de um boletim escolar. O programa deve ler o nome e duas notas de alguns alunos que o usuário cadastrar e guardar tudo em **uma única lista com três dimensões**.  
+No final, mostre um boletim contendo a média de cada aluno e permita que o usuário possa ver as notas 1 e 2 de cada estudante individualmente.  
 Exemplo de como a lista de estudantes deve ficar:
 ```python
 estudantes = [['Maria', [10.0, 8.0], 9.0], ['João', [4.5, 9.5], 7.0]]
@@ -227,8 +227,8 @@ No final, exiba o total de gols feitos e o seu aproveitamento por partida (núme
 
 
 ### Exercício 52
-Faça um programa que leia nome, idade e sexo de algumas pessoas, guardando os dados de cada um em um dicionário e todos os dicionários em uma lista.
-No final, exiba: quantas pessoas foram cadastradas; a média de idade; as mulheres cadastradas; e as pessoas maiores de idade.
+Faça um programa que leia nome, idade e sexo de algumas pessoas, guardando os dados de cada um em um dicionário e todos os dicionários em uma lista.  
+No final, exiba: quantas pessoas foram cadastradas; a média de idade; as mulheres cadastradas; e as pessoas maiores de idade.  
 Exemplo de como a lista de pessoas deve ficar:
 ```python
 pessoas = [{'nome': 'Maria', 'idade': 42, 'sexo': 'F'}, {'nome': 'João', 'idade': 17, 'sexo': 'M'}]
@@ -236,12 +236,18 @@ pessoas = [{'nome': 'Maria', 'idade': 42, 'sexo': 'F'}, {'nome': 'João', 'idade
 
 
 ### Exercício 53
-Faça um programa que calcule Progressão Aritmética (PA). O programa deve possuir uma função que receba três parâmetros: primeiro termo, último termo e a razão. Esses valores devem ser adicionados pelo usuário e o programa deve apresentar o resultado da PA.
+Faça um programa que calcule Progressão Aritmética (PA). O programa deve possuir uma função que receba três parâmetros: primeiro termo, último termo e a razão. Esses valores devem ser adicionados pelo usuário e o programa deve apresentar o resultado da PA.  
 Esse exercício é como se fosse uma **"recriação" do range()**.
 
 
 ### Exercício 54
-Faça um programa que calcule e encontre o **coeficiente binomial** a partir de dois valores digitados pelo usuário: um número *n* e uma classe *k*. O programa deve possuir duas funções, uma que realize o cálculo fatorial e a outra que encontre o número binomial e apresente o resultado final. Não pode fazer uso de bibliotecas do Python.
+Faça um programa que calcule e encontre o **coeficiente binomial** a partir de dois valores digitados pelo usuário: um número *n* e uma classe *k*.  
+O programa deve possuir duas funções, uma que realize o cálculo fatorial e a outra que encontre o número binomial e apresente o resultado final. Não pode fazer uso de bibliotecas do Python.
+
+
+### Exercício 55
+Faça um programa que receba um número inteiro positivo *N* digitado pelo usuário e retorne o maior número primo menor ou igual ao valor passado. Esse programa deve possuir uma função interna que receba esse número digitado como parâmetro e retorne apenas o maior primo desse intervalo de **1 a N**.  
+Por exemplo: se o número digitado for *100*, o valor retornado deve ser *97*; e se for *5*, o valor retornado deverá ser *5*.
 
 
 ---
