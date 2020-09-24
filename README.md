@@ -242,7 +242,7 @@ Esse exercício é como se fosse uma **"recriação" do range()**.
 
 ### Exercício 54
 Faça um programa que calcule e encontre o **coeficiente binomial** a partir de dois valores digitados pelo usuário: um número *n* e uma classe *k*.  
-O programa deve possuir duas funções, uma que realize o cálculo fatorial e a outra que encontre o número binomial e apresente o resultado final. Não pode fazer uso de bibliotecas do Python.
+O programa deve possuir duas funções, uma que realize o cálculo fatorial e a outra que encontre o número binomial e apresente o resultado final. Não pode fazer uso de bibliotecas integradas do Python.
 
 
 ### Exercício 55
@@ -252,6 +252,11 @@ Por exemplo: se o número digitado for *100*, o valor retornado deve ser *97*; e
 
 ### Exercício 56
 Faça um programa que apresente o fatorial de um número digitado pelo usuário. O programa deve possuir uma **função recursiva** que realize o cálculo.
+
+
+### Exercício 57
+Faça um programa que leia alguns números inteiros digitados pelo usuário separados por espaços e os armazene em uma lista. Essa lista deve ser enviada a uma **função recursiva** que faz a soma de todos esses valores. Não pode fazer uso da função integrada *sum()*.  
+Ao final, exiba o resultado para o usuário.
 
 
 ---
