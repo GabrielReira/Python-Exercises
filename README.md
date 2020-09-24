@@ -250,6 +250,10 @@ Faça um programa que receba um número inteiro positivo *N* digitado pelo usuá
 Por exemplo: se o número digitado for *100*, o valor retornado deve ser *97*; e se for *5*, o valor retornado deverá ser *5*.
 
 
+### Exercício 56
+Faça um programa que apresente o fatorial de um número digitado pelo usuário. O programa deve possuir uma **função recursiva** que realize o cálculo.
+
+
 ---
 
 
