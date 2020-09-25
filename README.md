@@ -259,6 +259,11 @@ Faça um programa que leia alguns números inteiros digitados pelo usuário sepa
 Ao final, exiba o resultado para o usuário.
 
 
+### Exercício 58
+Faça um programa que funcione como um **manual de ajuda** para os usuários Python. Esse programa deve ler um comando qualquer (seja uma biblioteca ou função built-in Python) digitado pelo usuário e exibir o seu manual.  
+O programa será encerrado quando o usuário digitar 'fim'.
+
+
 ---
 
 
