@@ -264,6 +264,10 @@ Faça um programa que funcione como um **manual de ajuda** para os usuários Pyt
 O programa será encerrado quando o usuário digitar 'fim'.
 
 
+### Exercício 59
+Jogo do NIM.
+
+
 ---
 
 
