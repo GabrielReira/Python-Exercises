@@ -265,7 +265,11 @@ O programa será encerrado quando o usuário digitar 'fim'.
 
 
 ### Exercício 59
-Jogo do NIM.
+Faça um programa que permita ao usuário jogar o **jogo do NIM** contra o computador.  
+Nesse jogo, *n* peças são inicialmente dispostas numa mesa ou tabuleiro. Dois jogadores jogam alternadamente, retirando pelo menos 1 e no máximo *m* peças cada um. Quem tirar as últimas peças possíveis ganha o jogo.  
+Existe uma estratégia para ganhar o jogo que é muito simples: ela consiste em deixar sempre múltiplos de (m+1) peças ao jogador oponente.  
+Nesse programa, **o computador deverá sempre ganhar do usuário**.  
+Seja **n** o número de peças inicial e **m** o número máximo de peças que é possível retirar em uma rodada. Para garantir que o computador ganhe sempre, é preciso considerar os dois cenários possíveis para o início do jogo: se *n* é múltiplo de (m+1), o computador deve convidar o jogador a iniciar a partida com a frase, caso contrário, o computador toma a inciativa de começar o jogo.
 
 
 ---
