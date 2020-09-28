@@ -280,6 +280,11 @@ Faça um programa que leia um número inteiro maior que zero e imprima sua decom
 Por exemplo: 630 = 2^1 * 3^2 * 5^1 * 7^1
 
 
+### Exercício 61 - Advanced
+Faça um programa que leia um número inteiro *n* digitado pelo usuário e exiba na tela a quantidade de número primos que existem entre 1 e *n*. Deve ser incluso o próprio *n*.  
+Por exemplo: se o valor digitado for **7**, deve ser retornado **4**; e se for **100**, o valor retornado deverá ser **25**.
+
+
 ---
 
 
