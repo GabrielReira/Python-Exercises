@@ -12,6 +12,29 @@ def main():
         campeonato()
 
 
+def computador_escolhe_jogada(n, m):
+    if m >= n:
+        peças_removidas = n
+    else:
+        peças_removidas = n % (m + 1)
+        if peças_removidas <= 0:
+            peças_removidas = m
+
+    print(f'\nO computador tirou {peças_removidas} peça(s).')
+    
+    return peças_removidas
+
+
+def usuário_escolhe_jogada(n, m):
+    peças_removidas = int(input('\nQuantas peças você vai tirar? '))
+
+    while (peças_removidas > m) or (peças_removidas <= 0):
+        print('\nJogada inválida! Tente de novo.')
+        peças_removidas = int(input('\nQuantas peças você vai tirar? '))
+
+    return peças_removidas
+
+
 def partida(peças_removidas=0):
     n = int(input('Quantas peças? '))
     m = int(input('Limite de peças por jogada? '))
@@ -26,7 +49,7 @@ def partida(peças_removidas=0):
         computador = True
 
     while usuário:
-        peças_removidas = usuario_escolhe_jogada(n, m)
+        peças_removidas = usuário_escolhe_jogada(n, m)
         n -= peças_removidas
         print(f'Agoram resta(m) {n} peça(s) no tabuleiro.')
 
@@ -43,49 +66,20 @@ def partida(peças_removidas=0):
             break
         print(f'Agoram resta(m) {n} peça(s) no tabuleiro.')
 
-        peças_removidas = usuario_escolhe_jogada(n, m)
+        peças_removidas = usuário_escolhe_jogada(n, m)
         n -= peças_removidas
         print(f'Agoram resta(m) {n} peça(s) no tabuleiro.')
     
     print('Fim do jogo! O computador ganhou!')
 
 
-def computador_escolhe_jogada(n, m):
-    if ((n - 1) % (m + 1) == 0):
-        peças_removidas = 1
-    else:
-        if m <= n:
-            if (n==13 and m==4):
-                peças_removidas = 3
-            else:
-                peças_removidas = m
-        else:
-            peças_removidas = n
-
-    print(f'\nO computador tirou {peças_removidas} peça(s).')
-    
-    return peças_removidas
-
-
-def usuario_escolhe_jogada(n, m):
-    peças_removidas = int(input('\nQuantas peças você vai tirar? '))
-
-    while (peças_removidas > m) or (peças_removidas > n) or (peças_removidas <= 0):
-        print('\nJogada inválida! Tente de novo.')
-        peças_removidas = int(input('\nQuantas peças você vai tirar? '))
-
-    return peças_removidas
-
-
 def campeonato():
-    print('\n','*' * 10, 'Rodada 1', '*' * 10, '\n')
-    partida()
-    print('\n', '*' * 10, 'Rodada 2', '*' * 10, '\n')
-    partida()
-    print('\n', '*' * 10, 'Rodada 3', '*' * 10, '\n')
-    partida()
+    for i in range(1, 4):
+        print('\n','*' * 10, f'Rodada {i}', '*' * 10, '\n')
+        partida()
+
     print('\n', '*' * 10, 'Fim do campeonato', '*' * 10)
-    print('Placar: Você 0 X 3 Computador')
+    print(' ' * 9, 'Computador 3 X 0 Você')
 
 
 
