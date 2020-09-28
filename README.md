@@ -275,6 +275,11 @@ Nesse programa, **o computador deverá sempre ganhar do usuário**.
 Seja **n** o número de peças inicial e **m** o número máximo de peças que é possível retirar em uma rodada. Para garantir que o computador ganhe sempre, é preciso considerar os dois cenários possíveis para o início do jogo: se *n* é múltiplo de (m+1), o computador deve convidar o jogador a iniciar a partida, caso contrário, o computador toma a inciativa de começar o jogo.
 
 
+### Exercício 60 - Intermediate
+Faça um programa que leia um número inteiro maior que zero e imprima sua decomposição em fatores primos, indicando também a multiplicidade de cada fator.  
+Por exemplo: 630 = 2^1 * 3^2 * 5^1 * 7^1
+
+
 ---
 
 
