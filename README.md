@@ -285,6 +285,12 @@ Faça um programa que leia um número inteiro *n* digitado pelo usuário e exiba
 Por exemplo: se o valor digitado for **7**, deve ser retornado **4**; e se for **100**, o valor retornado deverá ser **25**.
 
 
+### Exercício 62 - Advanced
+Faça um programa que leia um número inteiro *n* digitado pelo usuário e exiba todos os inteiros entre 1 e *n* que podem ser hipotenusa de algum triângulo retângulo com catetos inteiros.  
+Um número inteiro *c* é uma hipotenusa se existem inteiros *a* e *b* tais que: c² = a² + b².  
+Por exemplo: se o valor digitado for **10**, deve ser retornado **5 e 10**, pois existem dois valores de hipotenusas inteiras nesse intervalo. Agora se o valor digitado for **30**, deve ser retornado os valores **5, 10, 13, 15, 17, 20, 25, 26, 29 e 30**.
+
+
 ---
 
 
