@@ -71,7 +71,11 @@ def separa_palavras(frase):
         Returns:
             (list): Retorna uma lista contendo cada palavra da frase.
     '''
-    return frase.split()
+    palavras = list()
+    # Alguns textos podem vir sem espaços após o sinal de pontuação, para prevenir isso:
+    palavras = frase.replace(',', ' ').replace(';', ' ').replace(':', ' ').replace('.', ' ').replace('?', ' ').replace('!', ' ')
+    
+    return palavras.split()
 
 
 def n_palavras_unicas(lista_palavras):
@@ -125,7 +129,7 @@ def compara_assinatura(as_a, as_b):
     '''
     similaridade = 0
     for i in range(6):
-        similaridade = abs(as_a[i] - as_b[i])
+        similaridade += abs(as_a[i] - as_b[i])
 
     return (similaridade / 6)
 
@@ -144,7 +148,6 @@ def calcula_assinatura(texto):
     palavras = list()
     tamanho_palavras = 0
     for p in separa_palavras(texto):
-        p = re.sub('[.,;!?]', '', p)  # Retirando as pontuações
         palavras.append(p)
         tamanho_palavras += len(p)
     tmp = tamanho_palavras / len(palavras)
@@ -172,9 +175,10 @@ def calcula_assinatura(texto):
 
     # Tamanho médio de frase.
     total_caracteres = 0
-    for p in palavras:
-        total_caracteres += len(p) + 1  # É para contar os espaços entre as palavras
-    tmf = (total_caracteres - 1) / total_frases
+    for s in sentenças:
+        for frase in separa_frases(s):
+            total_caracteres += len(frase)
+    tmf = total_caracteres / total_frases
 
     as_t.extend((tmp, rtt, rhl, tms, cms, tmf))
 
@@ -187,5 +191,32 @@ def avalia_textos(textos, ass_cp):
         Parameters:
             textos (list): Lista contendo vários textos.
             ass_cp (float): Assinatura do aluno infectado por COH-PIAH.
+        Returns:
+            texto_infectado (int): Número do texto infectado.
     '''
-    pass
+    assinaturas = list()
+    for t in textos:
+        assinaturas.append(calcula_assinatura(t))
+
+    i = 0
+    while i < len(assinaturas):
+        if i == 0:
+            ass_infectada = compara_assinatura(assinaturas[i], ass_cp)
+            texto_infectado = 1
+        else:
+            if compara_assinatura(assinaturas[i], ass_cp) < ass_infectada:
+                ass_infectada = compara_assinatura(assinaturas[i], ass_cp)
+                texto_infectado += 1
+        i += 1
+
+    return texto_infectado
+
+
+def main():
+    ass_cp = le_assinatura()
+    textos = le_textos()
+
+    print(f'O autor do texto {avalia_textos(textos, ass_cp)} está infectado com COH-PIAH.')
+
+
+main()
